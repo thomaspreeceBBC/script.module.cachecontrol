@@ -354,3 +354,6 @@ class CacheController(object):
         )
 
         return cached_response
+
+    def close(self):
+        self.cache.close()

@@ -2,8 +2,9 @@
 <addon id="script.module.cachecontrol" name="Cachecontrol Module" provider-name="hbiyik" version="0.12.3">
     <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="xbmc.module.lockfile" version="0.12.2"/>
-		<import addon="xbmc.module.requests" version="2.12.4"/>
+		<import addon="script.module.lockfile" version="0.12.2"/>
+		<import addon="script.module.requests" version="2.12.4"/>
+		<import addon="script.module.tinyxbmc" version="0.0.1" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">

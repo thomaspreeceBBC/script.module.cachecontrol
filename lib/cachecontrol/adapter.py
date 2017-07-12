@@ -127,4 +127,5 @@ class CacheControlAdapter(HTTPAdapter):
 
     def close(self):
         self.cache.close()
+        self.controller.close()
         super(CacheControlAdapter, self).close()
